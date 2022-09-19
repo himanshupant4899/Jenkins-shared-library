@@ -7,3 +7,4 @@ def call(){
     sh "echo $PASS | docker login -u $USER --password-stdin"
     sh 'docker push himanshupant4899/demo-app:jma-2.0'
 }
+}
